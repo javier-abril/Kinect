@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: 36579f836c3a6874fbc22b5410a19903
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - TopL/ScaleL/RootJ/UnderJ/LLegJ
+    - TopL/ScaleL/RootJ/UnderJ/RRegJ
+    - TopL/ScaleL/RootJ/ShoulderJ/LShoulderJ
+    - TopL/ScaleL/RootJ/ShoulderJ/RShoulderJ
+    - TopL/ScaleL/RootJ/ShoulderJ/LShoulderJ/LArmJ0
+    - TopL/ScaleL/RootJ/ShoulderJ/LShoulderJ/LArmJ0/LArmJ1
+    - TopL/ScaleL/RootJ/ShoulderJ/LShoulderJ/LArmJ0/LArmJ1/LArmJ2
+    - TopL/ScaleL/RootJ/ShoulderJ/LShoulderJ/LArmJ0/LArmJ1/LArmJ2/LHandJ1
+    - TopL/ScaleL/RootJ/ShoulderJ/NeckJ
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 1
+    maxBonesPerVertex: 8
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: KingDedede(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TopL
+      parentName: KingDedede(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000015695824, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyM
+      parentName: TopL
+      position: {x: -0, y: 0.038519863, z: 0.0016845787}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ScaleL
+      parentName: TopL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RootJ
+      parentName: ScaleL
+      position: {x: -0, y: 0.02578405, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ShoulderJ
+      parentName: RootJ
+      position: {x: -0, y: 0.008827668, z: -7.219114e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LShoulderJ
+      parentName: ShoulderJ
+      position: {x: -0.015966186, y: 0, z: 0}
+      rotation: {x: 0, y: -0.0000005, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LArmJ0
+      parentName: LShoulderJ
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -4.927178e-20, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LArmJ1
+      parentName: LArmJ0
+      position: {x: -0.0120184915, y: 0, z: -2.8876456e-15}
+      rotation: {x: 0, y: 0.0000014305115, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LArmJ2
+      parentName: LArmJ1
+      position: {x: -0.009790176, y: 0, z: 1.15505826e-14}
+      rotation: {x: 0, y: 9.1695905e-20, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHandJ1
+      parentName: LArmJ2
+      position: {x: -0.0057744626, y: 0, z: 0}
+      rotation: {x: 0, y: 9.1695905e-20, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HammerL
+      parentName: LHandJ1
+      position: {x: -0.009096071, y: -0.0015592041, z: -5.7752913e-15}
+      rotation: {x: 0.029125238, y: -0.19693209, z: 0.69544244, w: 0.6904559}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HammerM
+      parentName: HammerL
+      position: {x: -0.00007203412, y: 0.012676685, z: 0.0035927275}
+      rotation: {x: -2.5849394e-26, y: 0.0000009536743, z: 2.7105054e-20, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHandJ3
+      parentName: LHandJ1
+      position: {x: -0.010542876, y: -0.0015592041, z: -1.7325874e-14}
+      rotation: {x: 0, y: 9.1695905e-20, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHandJ2
+      parentName: LHandJ1
+      position: {x: -0.006356477, y: 0.0022921718, z: -1.15505826e-14}
+      rotation: {x: 0, y: 9.1695905e-20, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NeckJ
+      parentName: ShoulderJ
+      position: {x: -0, y: 0.0013927808, z: 0.0053211986}
+      rotation: {x: -0.12898616, y: 0.69524276, z: -0.12898616, w: 0.6952429}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HeadJ
+      parentName: NeckJ
+      position: {x: -0.0043941992, y: 0.008770265, z: 4.5119465e-16}
+      rotation: {x: 0.12899153, y: -0.6952418, z: 0.12899153, w: 0.6952418}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LMabutaL
+      parentName: HeadJ
+      position: {x: -0.0057841646, y: 0.0033628852, z: 0.013743581}
+      rotation: {x: -0.000000004208232, y: 3.5803027e-12, z: 7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LMabutaM
+      parentName: LMabutaL
+      position: {x: 0.00022125966, y: 0.0024171127, z: -0.00080832787}
+      rotation: {x: -0.000000004208232, y: 3.5803027e-12, z: 7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RMabutaL
+      parentName: HeadJ
+      position: {x: 0.0057835793, y: 0.0033628852, z: 0.013743585}
+      rotation: {x: -0.000000004208232, y: 3.5803027e-12, z: 7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RMabutaM
+      parentName: RMabutaL
+      position: {x: -0.00022067527, y: 0.0024171188, z: -0.0008083294}
+      rotation: {x: -0.000000004208232, y: 3.5803027e-12, z: 7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EyeJ
+      parentName: HeadJ
+      position: {x: -0, y: 0.0021656048, z: 0.0017926542}
+      rotation: {x: -0.000000004208232, y: 3.5803027e-12, z: 7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MouthJ1
+      parentName: HeadJ
+      position: {x: -7.392373e-13, y: -0.0051718983, z: 0.010991011}
+      rotation: {x: 0.2981207, y: 0.64118946, z: 0.29812077, w: 0.64118963}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: MouthJ2
+      parentName: MouthJ1
+      position: {x: -0.0013578386, y: 0.000000003027916, z: 0}
+      rotation: {x: -0.29812098, y: -0.64118946, z: -0.29812098, w: 0.64118946}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: MouthJ3
+      parentName: MouthJ2
+      position: {x: 1.4784746e-12, y: 0.0012585442, z: 0.0017109951}
+      rotation: {x: -4.5474735e-13, y: 3.695627e-12, z: -7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: HatJ
+      parentName: HeadJ
+      position: {x: 7.392373e-13, y: 0.018094527, z: -0.0074454257}
+      rotation: {x: -0.000000004208232, y: 3.5803027e-12, z: 7.275958e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RShoulderJ
+      parentName: ShoulderJ
+      position: {x: 0.015966186, y: 0.00000012717247, z: 1.4438228e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RArmJ0
+      parentName: RShoulderJ
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RArmJ1
+      parentName: RArmJ0
+      position: {x: 0.0120185185, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RArmJ2
+      parentName: RArmJ1
+      position: {x: 0.009790176, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHandJ1
+      parentName: RArmJ2
+      position: {x: 0.0057744356, y: 0, z: 0}
+      rotation: {x: -0.19330983, y: 0.98113775, z: 0.00000008897555, w: 0.00000022547162}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHandJ3
+      parentName: RHandJ1
+      position: {x: -0.008803896, y: -0.006318714, z: 2.8876456e-15}
+      rotation: {x: -0.19330983, y: 0.98113775, z: 0.00000008897555, w: 0.00000022547161}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHandJ2
+      parentName: RHandJ1
+      position: {x: -0.0068700626, y: -0.000000004541874, z: 0}
+      rotation: {x: -0.19330983, y: 0.98113775, z: 0.00000008897555, w: 0.00000022547161}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RMantJ1
+      parentName: RootJ
+      position: {x: 0.024871882, y: -0.020696707, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: -0.00000019470718}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MantJ
+      parentName: RootJ
+      position: {x: -0, y: -0.020160513, z: -0.02231423}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LMantJ1
+      parentName: RootJ
+      position: {x: -0.024871882, y: -0.020696707, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnderJ
+      parentName: RootJ
+      position: {x: -0, y: -0.009212935, z: -3.609557e-16}
+      rotation: {x: 0.00000005207901, y: -0.0000001636856, z: 0.5297255, w: 0.84816915}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LLegJ
+      parentName: UnderJ
+      position: {x: -0.0122201685, y: -0.0038880287, z: 0}
+      rotation: {x: 0.063905224, y: 0.000000004402722, z: -0.37348524, w: 0.9254323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LFootJ1
+      parentName: LLegJ
+      position: {x: -0, y: -0.007268159, z: 0}
+      rotation: {x: -0.05420255, y: -0.033852097, z: -0.17344646, w: 0.9827678}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LFootJ2
+      parentName: LFootJ1
+      position: {x: -0, y: 0, z: 0.014913788}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RRegJ
+      parentName: UnderJ
+      position: {x: 0.0122201685, y: -0.0038880287, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: -0.00000019470718}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RFootJ1
+      parentName: RRegJ
+      position: {x: -0, y: 0.007268159, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RFootJ2
+      parentName: RFootJ1
+      position: {x: -0, y: 0, z: -0.014913788}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HaraJ
+      parentName: UnderJ
+      position: {x: -0, y: 0, z: 0.020654669}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: KingDedede
+      parentName: KingDedede(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: BodyM
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

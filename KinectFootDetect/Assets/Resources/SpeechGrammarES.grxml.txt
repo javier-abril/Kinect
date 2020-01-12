@@ -1,0 +1,75 @@
+﻿<grammar version="1.0" xml:lang="es-ES" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>FORWARD</tag>
+        <one-of>
+          <item> alante </item>
+          <item> adelante </item>
+          <item> hacia delante </item>
+          <item> anda </item>
+          <item> ve adelante </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>BACK</tag>
+        <one-of>
+          <item> atras </item>
+          <item> hacia atras </item>
+          <item> anda atras </item>
+          <item> anda hacia atras </item>
+          <item> retrocede </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>LEFT</tag>
+        <one-of>
+          <item> gira a la izquierda </item>
+          <item> ve a la izquierda </item>
+          <item> izquierda </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RIGHT</tag>
+        <one-of>
+          <item> gira a la derecha </item>
+          <item> ve a la derecha </item>
+          <item> derecha </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RUN</tag>
+        <one-of>
+          <item> corre </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>JUMP</tag>
+        <one-of>
+          <item> salta </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>STOP</tag>
+        <one-of>
+          <item> para </item>
+          <item> detente </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>HELLO</tag>
+        <one-of>
+          <item> hola </item>
+          <item> adios </item>
+          <item> saluda </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>MASTER</tag>
+        <one-of>
+          <item> maestro </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>
